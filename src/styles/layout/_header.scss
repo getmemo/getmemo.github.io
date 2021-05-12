@@ -1,0 +1,44 @@
+.header {
+  padding: 60px 0;
+  background-image: url(/images/Ellipse-68.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+
+  @media (min-width: 1280px) {
+    padding: 80px 0;
+    background-image: url(/images/Ellipse-66.svg);
+  }
+
+  &-wrapper {
+    position: relative;
+  }
+
+  &-brand {
+    font-size: 0;
+    text-align: center;
+
+    img {
+      width: 70px;
+
+      @media (min-width: 1280px) {
+        width: auto;
+      }
+    }
+  }
+
+  &-title {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 10px;
+
+    @media (min-width: 1280px) {
+      font-size: 28px;
+      margin-top: 5px;
+    }
+  }
+
+  &-content {
+    margin-top: 60px;
+  }
+}
